@@ -23,7 +23,7 @@ function run() {
 
 run();
 
-function sendRequest(url, callback) {
+async function sendRequest(url, callback) {
     const xhr = new XMLHttpRequest();
     xhr.open("GET", url, true);
 
